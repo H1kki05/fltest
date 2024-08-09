@@ -28,8 +28,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Hanielx")
 AUTO_DELETE_SECONDS = int(os.environ.get("AUTO_DELETE_SECONDS", "3600"))
 
 #Shortner (token system) 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "ed7add4ed2c86a2b5bfcc8cf29919cc9faf77006")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")#publicearn.com
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "")#ed7add4ed2c86a2b5bfcc8cf29919cc9faf77006
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 21600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/c/2242571831/14") 
