@@ -37,7 +37,7 @@ TUT_VID = os.environ.get("TUT_VID", "https://t.me/c/2242571831/14")
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002147381718"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "6"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "25"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>𝐻𝑒𝑦 {first}</b>\n\n<b>𝑊𝑒𝑙𝑐𝑜𝑚𝑒 𝑡𝑜 𝑡ℎ𝑒 𝐻𝑎𝑛𝑖𝑒𝑙 𝐹𝑖𝑙𝑒 𝑆𝑡𝑜𝑟𝑒 𝐵𝑜𝑡!✨ </b>\n \n<b><a href='https://t.me/+WA5vFPHEMfJmODk1'>𝑊𝑎𝑡𝑐ℎ 𝑚𝑜𝑣𝑖𝑒𝑠/𝑡𝑣 𝑠ℎ𝑜𝑤𝑠 🍿🌟 </a></b>\n \n<b><a href='https://t.me/+ddfydq6pKYtmNjU9'>𝑊𝑎𝑡𝑐ℎ 𝑒𝑥𝑐𝑙𝑢𝑠𝑖𝑣𝑒 𝑐𝑜𝑛𝑡𝑒𝑛𝑡 🎥🔞</a></b>")
